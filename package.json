@@ -1,0 +1,21 @@
+{
+  "name": "jujue-web-snap",
+  "version": "0.0.1",
+  "description": "The jujue-web-app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev:web": "parcel public/index.html"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.0.0",
+    "electron": "^6.0.4",
+    "parcel-bundler": "^1.12.3",
+    "vue": "^2.6.10",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "dependencies": {
+    "vue-hot-reload-api": "^2.3.3"
+  }
+}
